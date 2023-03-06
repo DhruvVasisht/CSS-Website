@@ -1,8 +1,14 @@
-body{
+body {
     background-color: plum;
 }
 
-p{
+p {
     font-family: 'Franklin Gothic Medium';
     font-size: large;
 }
+
+h1 {
+    color: blueviolet;
+    background-color: burlywood;
+}
+
