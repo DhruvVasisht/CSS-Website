@@ -1,0 +1,35 @@
+main {
+    border: 5px solid red;
+    /*width: 50%;*/
+    width: 25%;
+
+}
+
+ /*body{
+
+    font-size: 2em;
+}
+
+
+header{
+    font-size: 2em;
+}*/
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+section{
+    border: 5px dashed green;
+    /*width: 50%;*/
+    width: 50vw;
+    
+}
