@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
 /*resets*/
 
@@ -75,6 +75,59 @@ ul{
     align-items: center;
 }
 
+.hover-link{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover{
+        color: var(--accent-color);
+}
+
+.Primary-button{
+    background-color:var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.Primary-button:hover{
+    background-color: var(--ascent-color-dark);
+}
+
+.Tester-button{
+    font-family: 'Averta PE',sans-serif;
+    background-color:white;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #183b56;
+    padding: 6px 12px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.Tester-button:hover{
+    background-color: rgba(255, 255, 255, 0.429);
+}
+
+.Secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+
+}
+
+.Secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
 /* Top Banner */
 
 .top-banner{
@@ -105,10 +158,45 @@ ul{
 
 .nav-links{
     flex-basis: 730px;
-} 
+}
+
+.main-nav ul{
+    justify-content: end;
+    gap: 10px;
+}
 
 .nav-links ul{
     justify-content: end;
     gap: 40px;
 
+}
+
+/*Header Section*/
+
+header{
+    padding: 50px var(--padding-inline-section) 0;
+
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+
+.get-started-button{
+    margin: 20px;
+}
+
+
+.header-right img{
+    width: 600px;
 }
