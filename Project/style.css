@@ -281,12 +281,14 @@ header{
 }
     
 
+.testimonial-background{
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
 .testimonial{
     margin: 20px 0px;
-    background-image: url(./Assets/asset\ 35.svg);
-    background-repeat: no-repeat;
-    background-position: top left;
-
+    
 }
 
 .person-img img{
@@ -339,7 +341,7 @@ header{
     transition: 0.2 ease-out;
 
 }
-.examples-card:nth-child(5){
+.examples-card:nth-child(4){
     background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./Assets/asset\ 39.jpeg);
     background-size: cover;
 
@@ -353,4 +355,55 @@ header{
     color: white;
     font-family: 'Averta PE',sans-serif;
 
+}
+
+
+/* CTA Section */
+
+.cta-section-container {
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    text-align: center;
+}
+
+.cta-section {
+    padding: 120px var(--padding-inline-section) 80px;
+    background-color: #183b54;
+}
+
+.cta-section-container p {
+    color: white;
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* subfooter */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
