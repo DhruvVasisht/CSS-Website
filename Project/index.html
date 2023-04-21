@@ -34,7 +34,7 @@
           </li>
         </ul>
 
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
           <ul class="flex">
             <li><a href="#" class="hover-link">Products</a></li>
             <li><a href="#" class="hover-link">Customers</a></li>
@@ -356,5 +356,17 @@
       src="https://kit.fontawesome.com/d7058184cb.js"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const toggleButton = document.getElementById('nav-toggle');
+      const navLinks = document.getElementById('nav-links');
+
+      toggleButton.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+      })
+
+  </script>
+
+
   </body>
 </html>
